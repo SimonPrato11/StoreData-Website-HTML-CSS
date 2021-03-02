@@ -298,3 +298,24 @@ margin-right: 10px;
 ul{
     list-style-type: none;
 }
+
+/***** media query******************/
+
+@media(max-width:680px){body{
+    padding: 30px ;
+}}
+@media(max-width:680px){.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}}
+
+@media(max-width:680px){.middleSection,.middleSectionBottom{
+    display: flex;
+    flex-direction: column;
+    
+}}
+@media(max-width:680px){.imgProductive,.comilla{
+    display: none;
+    
+}}
