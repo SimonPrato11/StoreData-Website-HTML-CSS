@@ -1,0 +1,300 @@
+/* ### Headings, Call-to-actions, Header Navigation
+font-family: 'Raleway', sans-serif;
+
+## Colors
+### Primary
+- Dark Blue (intro and email sign up background): hsl(217, 28%, 15%)
+- Dark Blue (main background): hsl(218, 28%, 13%)used
+- Dark Blue (footer background): hsl(216, 53%, 9%)
+- Dark Blue (testimonials background): hsl(219, 30%, 18%)
+
+### Accent
+- Cyan (inside call-to-action gradient): hsl(176, 68%, 64%)
+- Blue (inside call-to-action gradient): hsl(198, 60%, 50%)
+- Light Red (error): hsl(0, 100%, 63%)
+
+### Neutral
+- White: hsl(0, 0%, 100%) */
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    background-color:hsl(218, 28%, 13%) ;
+    padding: 0%;
+    margin: 0%;
+}
+
+/*navbar*************************************/
+.navBar{
+    display: flex;
+    height: 10%;
+    margin-top: 40px;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+}
+
+.nav{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+
+#logo{
+    justify-content: flex-start;
+    margin-right: 55%;
+}
+/*top*************************************/
+.firstImg{
+    text-align: center;
+    margin-top: 30px;
+}
+#bigPicture{
+    width: 33%;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.8rem;
+    margin-top: 60px;
+    color: white;
+}
+
+.subtitle{
+    text-align: center;
+    color: rgb(168, 167, 167);
+    margin-top: 40px;
+    font-size: 0.8rem;
+    line-height: 5.4px;
+    font-weight: 500;
+}
+
+.btn{
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 1.2rem;
+}
+.button{
+    text-align: center;
+    border: 0;
+    background-color:hsl(176, 38%, 50%) ;
+    color: white;
+    border-radius: 15px;
+    padding: 13px 45px;
+}
+
+/******MIDDLE SECTION******************/
+.square{
+    text-align: center;
+    height: 250px;
+    width: 350px;
+    color: white;
+}
+
+h3{
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.textS{
+    line-height: 4px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: rgb(168, 167, 167);
+}
+
+.middleSection{
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.middleSectionBottom{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.fyloWorks{
+   
+    line-height: 7px;
+    display: inline-block;
+    margin-left: 45px;
+    position: relative;
+    bottom: 130px;
+    
+    
+}
+.imgProductive{
+    margin-left: 6%;
+    width: 45%;
+    margin-top: 5%;
+}
+.title2{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    line-height: 7px;
+    
+}
+.subtitle2{
+    margin-top: 40px;
+    color: thistle;
+    font-weight: 480;
+    line-height: 7px;
+}
+.anchor{
+    margin-top: 45px;
+color:hsl(176, 68%, 64%) ;
+}
+
+/****cards section**************/
+
+.cards{
+    margin-top: 11%;
+    color:rgb(214, 212, 212);
+    line-height: 3px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 75px;
+}
+
+.imgFace{
+    border-radius: 50px;
+    width: 8%;
+    margin-right: 8px;
+    margin-left: 20px;
+}
+
+.card{
+    padding: 15px 15px;
+    width: 290px;
+    height: 150px;
+    background-color:hsl(219, 31%, 15%);
+
+}
+
+.phrase{
+margin-top: 20px;
+margin-left: 20px;
+line-height: 5px;
+font-size: 13px;
+}
+.nameTitle{
+    position: relative;
+    display: inline-block;
+    font-size: 0.7rem;
+}
+
+.comilla{
+    position: absolute;
+    right: 90%;
+    color: teal;
+    font-size: 8rem;
+    font-weight: 900;
+}
+
+/****final section*******************/
+.finalCard{
+    background-color:hsl(219, 31%, 15%) ;
+    border-radius: 10px;
+    color: white;
+    height: 180px ;
+    width: 750px;
+    text-align: center;
+    padding: 20px 25px;
+    position: relative;
+    top: 100px;
+    left: 270px;
+    z-index: 1;
+}
+.h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+}
+.lastText{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    line-height: 6px;
+    font-size: 0.8rem;
+    color:rgb(189, 189, 189) ;
+}
+.input{
+border-radius: 17px;
+width: 350px ;
+height: 40px;
+border:0;
+margin-right: 10px;
+}
+.submit{
+    background-color:hsl(176, 38%, 50%);
+    border-radius: 17px;
+    width: 150px;
+    height: 40px;
+    border: 0;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    margin-left: 10px;
+}
+
+/*footer***********************/
+.footer{
+    background-color:hsl(216, 53%, 9%) ;
+    height: 200px;
+    display: flex;
+    color: white;
+    padding-top: 70px;
+    align-items: flex-start;
+    justify-content: center;
+}
+.subFooter{
+    height: 150px;
+    background-color: hsl(216, 53%, 9%) ;
+}
+.logoFooter{
+    position: relative;
+    top: 170px;
+    left: 150px;
+}
+
+.location{
+    height: 100px;
+    width: 350px;
+    margin-left: 30px;
+    padding-top: 7px;
+    padding-left: 15px;
+}
+.textLocation{
+    position: relative;
+    display: inline-block;
+    font-size: 0.9rem;
+    line-height: 5px;
+    margin-left: 12px;
+}
+
+.contact{
+    height: 100px;
+    width: 200px;
+    margin-left:80px ;
+    padding-top: 0;
+}
+
+.tel{
+    position: relative;
+    display: inline-block;
+}
+
+.aboutUs{
+    margin-left: 80px;
+    width: 150px;
+    height: 100px;
+    padding-top: 0;
+}
+ul{
+    list-style-type: none;
+}
